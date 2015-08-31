@@ -13,7 +13,7 @@ class PartiesList extends React.Component {
     return (
       <ul className="parties-list">
         <li>Party at Aperture Laboratories</li>
-				<li>Party at Sam's house</li>
+      <li>Party at Sam's house</li>
       </ul>
     );
   }
