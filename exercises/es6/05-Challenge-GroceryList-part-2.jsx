@@ -72,7 +72,7 @@ class GroceryList extends React.Component {
     return (
       <div>
         <input className='new-item' type="text" onChange={this.inputChanged}/>
-        <button className='add-product'>Add new Product</button>
+        <button className='add-product' onClick={this.addGroceryItem}>Add new Product</button>
         <ul>
           {groceriesComponents}
         </ul>
